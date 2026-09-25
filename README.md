@@ -1,6 +1,6 @@
 # renyispec
 
-**Robust power spectral density (PSD) fitting with the spectral Rényi divergence**
+**Robust power spectral density (PSD) estimation with the spectral Rényi divergence**
 
 
 **スペクトル Rényi ダイバージェンスによるロバストなパワースペクトル推定**
