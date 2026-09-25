@@ -17,7 +17,7 @@ Time series often contain periodic signals (e.g., annual and semi-annual terms) 
 When a parametric noise model is fitted to the periodogram with the standard Whittle / Itakura–Saito (IS) objective, 
 these spectral peaks can bias the estimated background spectrum.
 
-This repository provides a Jupyter notebook demonstrating **robust spectral estimation based on the spectral Rényi divergence** ([Takabatake & Yano, 2026](https://doi.org/10.1007/s10463-026-00983-y)). 
+This repository provides a Jupyter notebook demonstrating **robust spectral estimation based on the spectral Rényi divergence**. 
 With a Rényi hyper-parameter $0<\alpha<1$, the background spectrum is recovered even when peaks are present.
 
 ### What the notebook does
@@ -94,7 +94,7 @@ renyi-spectral-fit/
 時系列には、広帯域の背景ノイズに加えて、強い周期成分が含まれることがあります。
 通常の Whittle 尤度（Itakura–Saito ダイバージェンス）でピリオドグラムにノイズモデルを当てはめると、こうしたスペクトルピークに引きずられて背景スペクトルの推定にバイアスが生じます。
 
-このリポジトリは、**スペクトル Rényi ダイバージェンス**（[Takabatake & Yano, 2026](https://doi.org/10.1007/s10463-026-00983-y)）によるロバストなスペクトル推定を示す Jupyter ノートブックです。
+このリポジトリは、**スペクトル Rényi ダイバージェンス**によるロバストなスペクトル推定をデモする Jupyter ノートブックです。
 $0<\alpha<1$ の Rényi パラメータにより、モデルを大きく上回る周波数ビンの影響が抑えられ、ピークがあっても背景スペクトルを頑健に推定できます。
 
 ### ノートブックの内容
